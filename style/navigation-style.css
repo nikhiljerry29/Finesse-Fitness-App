@@ -1,0 +1,71 @@
+/* Navigation Bar */
+.navbar {
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+ }
+ .navbar-brand {
+   font-family: "Dancing Script", cursive;
+ }
+ 
+ .navbar-brand > span {
+   font-size: 2em;
+   line-height: 1px;
+ }
+ 
+ .navbar-toggler:focus {
+   box-shadow: 0 0 0 0.25rem #7952b3 !important;
+ }
+ 
+ a.nav-link {
+   color: #343a40;
+ }
+ 
+ a.nav-link:hover {
+   font-weight: 700;
+ }
+ 
+ .navbar-nav > li:first-child > a:hover {
+   color: red;
+ }
+ .navbar-nav > li:nth-of-type(2) > a:hover {
+   color: orange;
+ }
+ .navbar-nav > li:nth-of-type(3) > a:hover {
+   color: green;
+ }
+ .navbar-nav > li:nth-of-type(4) > a:hover {
+   color: blue;
+ }
+ .navbar-nav > li:nth-of-type(5) > a:hover {
+   color: purple;
+ }
+ 
+ .login-button {
+   background-color: #7952b3;
+   border: 0px;
+   border-radius: 0.75em;
+   color: white;
+   font-size: small;
+   font-weight: bold;
+   padding: 7px 30px;
+ }
+ 
+ .login-button:hover {
+   background-color: rgba(121, 82, 179, 0.9);
+ }
+ 
+ @media (min-width: 768px) {
+   .nav-item {
+     margin-right: 20px;
+   }
+ 
+   .nav-item:last-child {
+     margin-right: 0rem;
+   }
+ }
+ 
+ @media (min-width: 1200px) {
+   .nav-item {
+     margin-right: 30px;
+   }
+ }
