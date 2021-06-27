@@ -7,7 +7,7 @@
   --color-4: #e1e8eb;
 }
 
-body{
+body {
   font-family: "ABCDiatype", sans-serif;
 }
 
@@ -30,4 +30,24 @@ body{
 /* Showcase Section */
 #showcase h1 {
   font-family: "Montserrat", sans-serif;
+}
+
+.bi {
+  color: var(--color-4);
+}
+
+.bi-facebook:hover {
+  color: #4267B2;
+}
+.bi-instagram:hover {
+  color: #C13584;
+}
+.bi-twitter:hover {
+  color: #1DA1F2;
+}
+.bi-linkedin:hover {
+  color: #0e76a8;
+}
+.bi-youtube:hover {
+  color: #FF0000;
 }
