@@ -19,16 +19,19 @@
 
 </head>
 
+
 <body>
+   <!-- Navigation Bar -->
    <section>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg fixed-top bg-light">
          <div class="container">
             <a class="navbar-brand fs-1 text-dark" href="#">
                finesse <span>.</span>
             </a>
 
-            <button class="navbar-toggler ms-auto navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-               <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler ms-auto navbar-light" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarNav">
+               <i class="bi bi-filter-right fs-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                <ul class="navbar-nav mx-auto">
@@ -45,7 +48,7 @@
                      <a class="nav-link" href="#">Pricing</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#">Try for Free</a>
+                     <a class="nav-link" href="#">About Us</a>
                   </li>
 
                   <a href="login.html">
@@ -60,44 +63,149 @@
       </nav>
    </section>
 
-   <main class="container">
+   <main>
 
       <!-- Showcase Section -->
-      <section class="py-2" id="showcase">
-         <div class="row align-items-center gap-3 mt-lg-5">
-            <div class="col-md text-center">
-               <img src="img/working_out.svg" alt="" class="img-fluid">
-            </div>
-            <div class="col-md text-md-start text-center">
-               <h1>
-                  One Step Closer to
-                  <br>
-                  <span class="text-success">
-                     Healthy Life.
-                  </span>
-               </h1>
-               <p class="lead">
-                  The best personal trainer app to help you get (and stay) in the best shape of your life.
-               </p>
-               <a href="#" class="btn btn-dark px-4">LEARN MORE</a>
+      <section class="p-5 mt-sm-5" id="showcase">
+         <div class="container">
+
+            <div class="row align-items-center gap-3 mt-lg-5">
+               <div class="col-md text-md-start text-center">
+                  <h1>
+                     One Step Closer to
+                     <br>
+                     <span class="text-success">
+                        Healthy Life.
+                     </span>
+                  </h1>
+                  <p class="lead">
+                     The best personal trainer app to help you get (and stay) in the best shape of your life.
+                  </p>
+                  <a href="#" class="btn btn-dark px-4">LEARN MORE</a>
+               </div>
+               <div class="col-md text-center">
+                  <img src="img/indoor_bike.svg" alt="" class="img-fluid">
+               </div>
             </div>
          </div>
       </section>
 
+      <!-- Quotes Section -->
+      <section class="p-5 text-center bg-color-4">
+         <div class="container">
+            <p class="lead fs-3">“If something stands between you and your success, move it. Never be denied.”</p>
+            <h4 class="text-end"><i class="bi bi-dash"></i> Dwayne Johnson</h4>
+         </div>
+      </section>
+
       <!-- Features Section -->
+      <section class="p-5 my-3" id="features">
+         <div class="container">
+            <div class="row align-items-center justify-content-between">
+               <div class="col-md">
+                  <img src="img/workout_girl.svg" alt="" class="img-fluid">
+               </div>
+               <div class="col-md p-5">
+                  <h2>Work out at home for free.</h2>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quisquam sit neque dolor excepturi
+                     inventore dolore numquam pariatur, magni eveniet ex eos nulla ducimus deleniti error nisi earum
+                     possimus officia.
+                  </p>
+                  <a href="#" class="btn px-4 bg-color-1 text-light">Join Now</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="p-5 my-3 bg-dark text-light" id="features">
+         <div class="container">
+            <div class="row align-items-center justify-content-between">
+               <div class="col-md p-5">
+                  <h2>Get more with low-cost training programs and advanced features.</h2>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quisquam sit neque dolor excepturi
+                     inventore dolore numquam pariatur, magni eveniet ex eos nulla ducimus deleniti error nisi earum
+                     possimus officia.
+                  </p>
+                  <a href="#" class="btn px-4 bg-color-2 text-light">Join Now</a>
+               </div>
+               <div class="col-md">
+                  <img src="img/fitness_tracker.svg" alt="" class="img-fluid">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Pace Goals -->
+      <section class="p-5">
+         <div class="container text-center">
+            <p class="lead fs-2 mb-0">Concur Your Goals</p>
+            <p class="lead mb-4">Start at your own pace!</p>
+            <div class="row g-5">
+               <div class="col-md">
+                  <div class="card">
+                     <div class="card-body">
+                        <img src="img/cards-png/exercises.png" alt="" class="img-fluid mb-3">
+
+                        <h3 class="card-title mb-3">Beginner</h3>
+                        <p class="card-text">
+                           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                           Iure, quas quidem possimus dolorum esse eligendi?
+                        </p>
+                        <a href="#" class="btn px-4 bg-color-1 text-light">Explore</a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md">
+                  <div class="card">
+                     <div class="card-body">
+                        <img src="img/cards-png/exercise_man.png" alt="" class="img-fluid mb-3">
+                        <h3 class="card-title mb-3">Intermediate</h3>
+                        <p class="card-text">
+                           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                           Iure, quas quidem possimus dolorum esse eligendi?
+                        </p>
+                        <a href="#" class="btn px-4 bg-color-1 text-light">Explore</a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md">
+                  <div class="card">
+                     <div class="card-body">
+                        <img src="img/cards-png/dumbbell.png" alt="" class="img-fluid mb-3">
+                        <h3 class="card-title mb-3">Advance</h3>
+                        <p class="card-text">
+                           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                           Iure, quas quidem possimus dolorum esse eligendi?
+                        </p>
+                        <a href="#" class="btn px-4 bg-color-1 text-light">Explore</a>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
 
       <!-- Testimonials -->
 
    </main>
 
-   <!-- Custom Scripts -->
-   <script src="scripts/home-page-script.js"></script>
+   <!-- JS Scripts -->
+   <section>
 
-   <!-- Bootstrap Script -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"></script>
+      <!-- Custom Scripts -->
+      <script src="scripts/home-page-script.js"></script>
 
+      <!-- Bootstrap Script -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+         crossorigin="anonymous"></script>
+
+   </section>
 </body>
 
 </html>
