@@ -10,6 +10,7 @@
  .navbar-brand > span {
    font-size: 2em;
    line-height: 1px;
+   font-family: inherit;
  }
  
  .navbar-toggler:focus {

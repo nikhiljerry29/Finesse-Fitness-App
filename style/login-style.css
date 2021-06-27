@@ -26,8 +26,8 @@
 }
 .form-control:focus,
 .form-control:active {
-  border-color: #7952b3;
-  box-shadow: 0 0 0 0.1rem #7952b3;
+  border-color: #7952b3 !important;
+  box-shadow: 0 0 0 0.1rem #7952b3 !important;
 }
 
 .submit-button {

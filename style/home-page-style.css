@@ -7,6 +7,10 @@
   --color-4: #e1e8eb;
 }
 
+body{
+  font-family: "ABCDiatype", sans-serif;
+}
+
 .bg-color-1 {
   background-color: var(--color-1) !important;
 }
@@ -23,12 +27,7 @@
   background-color: var(--color-4) !important;
 }
 
-body {
-  font-family: "ABCDiatype", sans-serif;
-}
-
 /* Showcase Section */
 #showcase h1 {
   font-family: "Montserrat", sans-serif;
 }
-
