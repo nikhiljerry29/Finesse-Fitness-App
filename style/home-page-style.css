@@ -51,3 +51,12 @@ body {
 .bi-youtube:hover {
   color: #FF0000;
 }
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: var(--color-2);
+}

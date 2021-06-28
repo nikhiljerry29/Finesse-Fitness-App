@@ -12,12 +12,64 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-   <link rel="stylesheet" href="style/login-style.css">
-   <link rel="stylesheet" href="style/register-style.css">
+   <link rel="stylesheet" href="style/login-register-style.css">
 </head>
 
 <body>
-   <h1>Register</h1>
+
+   <section>
+      <div class="container register-row" id="register">
+         <div class="text-center mt-3 mb-5">
+            <h2>Happy to See You here!</h2>
+            <h3>Register Here!</h3>
+            <p class="text-secondary"> Already have an account? <a href="login.html"
+                  class="text-decoration-none">Login
+                  here!</a></p>
+         </div>
+         <div class="row">
+            <div class="col-lg-6 col-md-8 col-sm-12 mx-auto">
+               <form class="row g-3">
+                  <div class="col-md-6">
+                     <label for="first_name" class="form-label">First name</label>
+                     <input type="text" class="form-control" id="first_name" placeholder="e.g. John" required autofocus>
+                  </div>
+                  <div class="col-md-6">
+                     <label for="last_name" class="form-label">Last name</label>
+                     <input type="text" class="form-control" id="last_name" placeholder="e.g. Watson" required>
+                  </div>
+
+
+                  <div class="col-12">
+                     <label for="email_address" class="form-label">Email address</label>
+                     <input type="email" class="form-control" id="email_address" placeholder="name@email.com">
+                  </div>
+
+                  <div class="col-6">
+                     <label for="password1" class="form-label">Password</label>
+                     <input type="password" class="form-control" id="password1" placeholder="Must be 8-20 characters long.">
+                  </div>
+                  <div class="col-6">
+                     <label for="password2" class="form-label">Confirm Password</label>
+                     <input type="password" class="form-control" id="password2">
+                  </div>
+
+                  <div class="col-12">
+                     <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="termsandconditions" required>
+                        <label class="form-check-label" for="termsandconditions">
+                           Agree to terms and conditions
+                        </label>
+                     </div>
+                  </div>
+                  <div class="col-12">
+                     <button class="submit-button" type="submit">Submit form</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+
    <!-- Bootstrap Script -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"

@@ -4,8 +4,7 @@
   font-family: Helvetica, sans-serif;
 }
 
-#login h1,
-#login h3 {
+h1, h3 {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -24,6 +23,7 @@
 .form-control {
   border-radius: 75em;
 }
+.form-check-input,
 .form-control:focus,
 .form-control:active {
   border-color: #7952b3 !important;
@@ -36,4 +36,11 @@
   border-radius: 75em;
   color: white;
   padding: 7px 25px;
+}
+
+.register-row {
+  min-height: 100vh;
+  background-image: url("../img/biking.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
