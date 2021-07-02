@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@600&display=swap");
+
+/* Navigation Bar */
+.navbar {
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+ }
+ .navbar-brand {
+   font-family: "Dancing Script", cursive;
+ }
+  .navbar-brand > span {
+   font-size: 2em;
+   line-height: 1px;
+   font-family: inherit;
+ }
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav li:last-child {
+  margin-right: 0rem;
+}
+
+.form-control:focus,
+.form-control:active {
+  border-color: #7952b3 !important;
+  box-shadow: 0 0 0 0.1rem #7952b3 !important;
+}
