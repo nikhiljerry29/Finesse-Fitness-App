@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { DashboardNavbarComponent } from './components/dashboard-navbar/dashboard-navbar.component';
 import { ExerciseDisplayComponent } from './components/exercise-display/exercise-display.component';
+import { ExerciseDetailsComponent } from './components/exercise-details/exercise-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     DashboardNavbarComponent,
-    ExerciseDisplayComponent
+    ExerciseDisplayComponent,
+    ExerciseDetailsComponent
   ],
   imports: [
     BrowserModule,

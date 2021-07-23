@@ -7,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./exercise-display.component.css'],
 })
 export class ExerciseDisplayComponent implements OnInit {
-  exerciseList: any = [];
+  exerciseList: any = {};
   constructor(private exerciseService: ExercisesService) {}
 
   ngOnInit(): void {
     this.exerciseList = this.exerciseService.getExercisesDetail();
+    
   }
 }

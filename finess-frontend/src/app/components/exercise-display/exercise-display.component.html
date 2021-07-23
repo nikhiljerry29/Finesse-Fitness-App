@@ -3,28 +3,32 @@
     <h1 class="mb-4 text-center">Exercises</h1>
     <div
       class="row my-3 justify-content-center"
-      *ngFor="let catExercise of exerciseList"
-      id="{{ catExercise.category }}"
+      *ngFor="let categoryExercise of exerciseList"
+      id="{{ categoryExercise.category }}"
     >
-      <h3 class="mb-4 text-center">{{ catExercise.category }}</h3>
+      <h3 class="mb-4 text-center">{{ categoryExercise.category }}</h3>
 
       <div
         class="col-xl col-lg-4 col-md-4 col-sm-12 my-2"
-        *ngFor="let exercise of catExercise.exercises"
+        *ngFor="let exercise of categoryExercise.exercises"
       >
         <div class="card">
           <img src="{{ exercise.exrThumb }}" alt="" class="card-img-top" />
           <div class="card-body">
             <h5 class="card-title">{{ exercise.exrName }}</h5>
             <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsa
-              exercitationem placeat?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              possimus quia nam molestias cumque optio consequuntur, adipisci
+              consectetur harum. Eius.
             </p>
-            <a href="#" class="btn bg-warning fw-bold"
-              ><i class="bi bi-skip-start"></i> Start</a
+            <a href="#" class="btn bg-color-1 text-light fw-bold" [routerLink] ="['/dashboard/exercises']" [queryParams]="{id : '{{ exercise.id }}'}"
+              ><i class="bi bi-skip-start-fill"></i> Start</a
             >
           </div>
         </div>
+
+
+        
       </div>
       <p class="text-center fs-5">
         <i class="bi bi-dot"></i><i class="bi bi-dot"></i
