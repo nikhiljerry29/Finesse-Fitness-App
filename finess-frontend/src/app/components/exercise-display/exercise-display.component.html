@@ -1,0 +1,35 @@
+<div class="section py-4">
+  <div class="container-fluid px-4">
+    <h1 class="mb-4 text-center">Exercises</h1>
+    <div
+      class="row my-3 justify-content-center"
+      *ngFor="let catExercise of exerciseList"
+      id="{{ catExercise.category }}"
+    >
+      <h3 class="mb-4 text-center">{{ catExercise.category }}</h3>
+
+      <div
+        class="col-xl col-lg-4 col-md-4 col-sm-12 my-2"
+        *ngFor="let exercise of catExercise.exercises"
+      >
+        <div class="card">
+          <img src="{{ exercise.exrThumb }}" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">{{ exercise.exrName }}</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsa
+              exercitationem placeat?
+            </p>
+            <a href="#" class="btn bg-warning fw-bold"
+              ><i class="bi bi-skip-start"></i> Start</a
+            >
+          </div>
+        </div>
+      </div>
+      <p class="text-center fs-5">
+        <i class="bi bi-dot"></i><i class="bi bi-dot"></i
+        ><i class="bi bi-dot"></i><i class="bi bi-dot"></i>
+      </p>
+    </div>
+  </div>
+</div>

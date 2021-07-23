@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Otomanopee One", sans-serif;
+}
+
+.card img{
+   object-fit: cover;
+   height: 25rem;
+}
+
+@media (max-width: 736px) {
+   .card img{
+      height: 15rem;
+   }
+}
+
+.bg-color-1 {
+   background-color: #7952b3;
+}
