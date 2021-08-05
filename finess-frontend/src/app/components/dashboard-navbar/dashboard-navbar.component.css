@@ -2,17 +2,17 @@
 
 /* Navigation Bar */
 .navbar {
-   -webkit-transition: all 0.4s ease;
-   transition: all 0.4s ease;
- }
- .navbar-brand {
-   font-family: "Dancing Script", cursive;
- }
-  .navbar-brand > span {
-   font-size: 2em;
-   line-height: 1px;
-   font-family: inherit;
- }
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+}
+.navbar-brand > span {
+  font-size: 2em;
+  line-height: 1px;
+  font-family: inherit;
+}
 
 .nav li {
   margin-right: 20px;
@@ -20,6 +20,12 @@
 
 .nav li:last-child {
   margin-right: 0rem;
+}
+
+.nav > li > a:hover {
+  font-weight: 600;
+  margin: auto 5px;
+  transition: margin 0.2s ease;
 }
 
 .form-control,

@@ -21,14 +21,14 @@
               possimus quia nam molestias cumque optio consequuntur, adipisci
               consectetur harum. Eius.
             </p>
-            <a href="#" class="btn bg-color-1 text-light fw-bold" [routerLink] ="['/dashboard/exercises']" [queryParams]="{id : '{{ exercise.id }}'}"
+            <a
+              href="#"
+              class="btn bg-color-1 text-light fw-bold"
+              routerLink="/dashboard/exercises/{{ exercise.id }}"
               ><i class="bi bi-skip-start-fill"></i> Start</a
             >
           </div>
         </div>
-
-
-        
       </div>
       <p class="text-center fs-5">
         <i class="bi bi-dot"></i><i class="bi bi-dot"></i

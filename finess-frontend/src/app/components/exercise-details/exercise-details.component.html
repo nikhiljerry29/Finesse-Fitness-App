@@ -1,1 +1,42 @@
-<p>exercise-details works!</p>
+<div class="container my-4">
+  <div class="row">
+    <div class="col col-12 col-lg-6 px-lg-4 mb-5">
+      <div class="card my-2">
+        <img src="{{ exerciseInfo.exrThumb }}" alt="" class="card-img" />
+      </div>
+      <h2 class="text-center text-md-start">{{ exerciseInfo.exrName }}</h2>
+      <!-- <p>{{ exerciseInfo.exrDesc }}</p> -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet veritatis
+        modi repellat repudiandae consectetur voluptates in facilis repellendus
+        hic atque itaque fuga corrupti alias dolorem, tempore illo est molestias
+        cum
+      </p>
+      <div class="text-center text-md-start">
+
+        <a class="btn btn-lg btn-danger me-3">Start</a>
+        <a href="/dashboard/exercises" class="btn btn-lg btn-dark">Back</a>
+      </div>
+      
+    </div>
+
+    <div class="col col-12 col-lg-6">
+
+      <h3 class="text-center">List of Exercises</h3>
+      <div class="my-4">
+        <div *ngFor="let in of counter(19); let number = index">
+          <div
+            class="exercise d-flex align-items-center justify-content-between"
+            *ngIf="exerciseInfo['exrRep' + number]"
+          >
+            <p class="lead">{{ exerciseInfo["exrRep" + number] }}</p>
+            <p class="lead"><i class="bi bi-dash"></i></p>
+            <p class="lead">{{ exerciseInfo["exrInfo" + number] }}</p>
+            <p class="lead"><i class="bi bi-dash"></i></p>
+            <p class="lead text-danger"><i class="bi bi-play-circle"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

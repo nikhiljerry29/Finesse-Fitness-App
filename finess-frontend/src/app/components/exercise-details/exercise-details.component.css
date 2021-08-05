@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Otomanopee One", sans-serif;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+.card img {
+  object-fit: cover;
+  height: 30rem;
+}
+
+/* .card img:hover {
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+} */
+
+@media (max-width: 736px) {
+  .card img {
+    height: 12rem;
+  }
+  .col {
+    margin-bottom: 15px;
+  }
+}
+
+.exercise {
+  padding: 15px;
+  padding-bottom: 0px;
+  border-radius: 1.5em;
+  border: 3px solid #7952b3;
+  margin: 15px auto;
+}
+
+.exercise:hover {
+  transform: scale(0.95);
+  transition: transform 0.2s ease;
+  background-color: #ffffe5;
+}
